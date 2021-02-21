@@ -1,0 +1,7 @@
+header {
+    @include flex;
+    background: $background-secondary;
+    min-height: 10vmin;
+    max-height: 15vh;
+    padding: $padding;
+}

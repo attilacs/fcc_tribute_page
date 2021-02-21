@@ -1,0 +1,29 @@
+@media (min-width: 992px) {
+    main {
+        figure {
+            grid-area: figure;
+        }
+        
+        footer {
+            grid-area: footer;
+        }
+        
+        header {
+            grid-area: header;
+        }
+        
+        #tribute-info {
+            grid-area: info;
+        }
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 15vh
+                            auto
+                            10vh;
+        grid-template-areas: 'header header'
+                             'figure info'
+                             'footer footer';
+        height: 100vh;
+    }
+}

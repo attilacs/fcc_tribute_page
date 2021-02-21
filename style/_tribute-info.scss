@@ -1,0 +1,9 @@
+#tribute-info {
+    @include flex;
+    background: $background-main;
+    padding: $padding;
+    p {
+        padding: $padding;
+        text-align: justify;
+    }
+}

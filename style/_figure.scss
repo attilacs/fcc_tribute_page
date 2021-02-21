@@ -1,0 +1,8 @@
+figure {
+    @include flex;
+    background: $background-main;
+    padding: $padding;
+    img {
+        max-width: 95%;
+    }
+}

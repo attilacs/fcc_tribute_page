@@ -1,0 +1,6 @@
+footer {
+    @include flex;
+    background: $background-secondary;
+    min-height: 5vmin;
+    max-height: 10vh;
+}
